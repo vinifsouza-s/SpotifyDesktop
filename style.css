@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color:black;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    cursor: pointer;
+}
+
+header{
+    max-width:1770px;
+    margin: 0 246px;
+    padding: 0 15px
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img1{
+    margin: 20px;
+}
+
+.nav-bar ul, .log-bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    font-family: "Circular Spotify Tx T Black", Helvetica, Arial, sans-serif;;
+}
+
+.nav-bar li, .log-bar li{
+    padding: 28px 17px;
+}
+
+
+li:hover{
+    color: #1ed760;
+}
+
+#break:hover{
+    color: #fff
+}
+
+
+
+
+
