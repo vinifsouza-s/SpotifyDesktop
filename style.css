@@ -1,8 +1,6 @@
 *{
     margin:0px;
     padding:0px;
-    background-color:black;
-    box-sizing: border-box;
 }
 
 ul{
@@ -14,9 +12,10 @@ li{
 }
 
 header{
-    max-width:1770px;
-    margin: 0 246px;
-    padding: 0 15px
+    background-color:black;
+    box-sizing: border-box;
+    max-width:2000px;
+    padding: 0 380px;
 }
 
 .menu{
@@ -36,7 +35,7 @@ header{
     font-weight: 700;
     line-height: 24px;
     color: #fff;
-    font-family: "Circular Spotify Tx T Black", Helvetica, Arial, sans-serif;;
+    font-family: "Circular Spotify Tx T Black", Helvetica, Arial, sans-serif;
 }
 
 .nav-bar li, .log-bar li{
@@ -52,7 +51,110 @@ li:hover{
     color: #fff
 }
 
+article{
+    margin: 0 380px;
+    padding: 0 15px;
+    font-family: "Circular Spotify Tx T Black", Helvetica, Arial, sans-serif;
+}
+
+.firstsection{
+    background-color: rgb(29, 117, 222);
+ }
+
+.titlefirstsection{
+    padding: 72px 0px 40px;
+}
+
+.h1title{
+    line-height: 48px;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+    max-width: 100%;
+    width: auto;
+    display: inline-block;
+    font-size: 40px;
+}
+
+.h2title{
+    margin: 30px 0px 0px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    max-width: 100%;
+    display: inline-block;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.buttons span{
+    margin: 35px 0px 0px;
+}
+
+.buttonstart{
+    background: #191414;
+    padding: 17px 48px;
+    margin: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    border: 2px solid #191414;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.buttonstart:hover{
+    background: #191414;
+    transform: scale(1.05)
+}
 
 
+.buttonplans{
+    background: rgb(29, 117, 222);
+    padding: 17px 48px;
+    margin: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    border: 2px solid;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    cursor: pointer;
+}
 
+.buttonplans:hover{
+    background: rgb(29, 117, 222);
+    transform: scale(1.05)
+}
 
+.footerp{
+    margin: 40px 0px 0px;
+}
+
+.pfooter{
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    color: #ffffff;
+}
+
+.pfooter a{
+    cursor: pointer;
+    text-decoration: underline;
+}
