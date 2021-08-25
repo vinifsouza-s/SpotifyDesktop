@@ -7,11 +7,7 @@ ul{
     list-style: none;
 }
 
-li{
-    cursor: pointer;
-}
-
-header{
+.headermenu{
     background-color:black;
     box-sizing: border-box;
     max-width:2000px;
@@ -40,10 +36,11 @@ header{
 
 .nav-bar li, .log-bar li{
     padding: 28px 17px;
+    cursor: pointer;
 }
 
 
-li:hover{
+.nav-bar li:hover{
     color: #1ed760;
 }
 
@@ -158,3 +155,68 @@ article{
     cursor: pointer;
     text-decoration: underline;
 }
+
+
+.secondarticle{
+    margin: 0px 366px;
+    padding: 75px 15px;
+    width: 1170px;
+}
+
+.premium-title{
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46px;
+    letter-spacing: -0.015em;
+    padding: 0px;
+    font-family: "Circular Spotify Tx T Black", Helvetica, Arial, sans-serif;
+    margin-bottom: 72px;
+}
+
+.premium-tipes{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.premium-tipes li{
+    margin: 0px 0px 20px;
+}
+
+.premium-tipes li div img{
+    display: block;
+    margin: 0px auto 40px;
+    width:141px;
+    height:141px;
+    background-position: center top;
+}
+
+
+.text1 , .text2 , .text3 , .text4 {
+    margin: 16px 0px;
+    display: block;
+    text-align: center;
+}
+
+.p1-1 , .p2-1 , .p3-1 , .p4-1{
+    margin: 0px 0px 10px;
+    font-size: 21px;
+    font-weight:bold;
+    font-family: "Circular Spotify Tx T Black", Helvetica, Arial, sans-serif;
+    line-height: 27px;
+    display: block;
+    text-align: center;
+}
+
+.p1-2 , .p2-2 , .p3-2, .p4-2{
+    margin: 0px 22px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+}
+
