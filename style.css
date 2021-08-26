@@ -220,3 +220,103 @@ article{
     text-align: center;
 }
 
+.thirdsection{
+    background-color: #EFEFEF;
+}
+
+.thirdarticle{
+    margin: 0px 366px;
+    padding: 75px 15px;
+}
+
+.secondh2{
+    font-family: "Circular Spotify Tx T Black", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -1.28px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.firsth3{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: block;
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: inherit;
+}
+
+.generalcards{
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.cards{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cards li img{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;    
+    width: 29px;
+    height: 20px;
+    vertical-align: middle;
+    padding: 1px;
+    margin: 0px;
+}
+
+.cardtest{
+    display:block;
+    position: relative;
+    text-decoration: underline;
+    margin-left: 4px;
+}
+
+.othercards{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.othercards li img{
+    display: none;
+    position: relative;
+    background-position: center center;  
+    top: -50px;
+    left: 50%;
+    margin: 0px;
+    padding: 8px 6px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 20%) 0px 6px 18px;
+    border-radius: 8px;
+    transform: translateX(-50%);
+    width: 29px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.othercards:hover{
+    display: flex;
+}
+
+
