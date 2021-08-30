@@ -11,11 +11,12 @@ ul{
 .headermenu{
     background-color:black;
     box-sizing: border-box;
-    max-width:2000px;
+    max-width: 2000px;
+    width: 100%;
     padding: 0 380px;
 }
 
-.menu{
+.menup{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -25,7 +26,7 @@ ul{
     margin: 20px;
 }
 
-.nav-bar ul, .log-bar ul{
+#menu{
     display: flex;
     flex-wrap: wrap;
     font-size: 16px;
@@ -35,14 +36,84 @@ ul{
     font-family: "Circular Spotify Tx T Black", Helvetica, Arial, sans-serif;
 }
 
-.nav-bar li, .log-bar li{
+#menu li{
     padding: 28px 17px;
     cursor: pointer;
 }
 
-
-.nav-bar li:hover{
+#menu li:hover{
     color: #1ed760;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+@media (max-width: 1300px) {
+    .headermenu{
+        width: 100%;
+        padding: 10px;
+    }
+
+    #menu{
+        display:none;
+        width:100%;
+        top: 20px;
+        right: 0px;
+    }
+    #nav.active #menu{
+        display: block;
+    }
+
+    #btn-mobile {
+        background:#000;
+        display:flex ;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #btn-mobile1{
+        display:block;
+        border-top: 2px solid;
+        width: 20px;
+    }
+
+    #btn-mobile1::after, #btn-mobile1::before {
+        content: '';
+        display:block;
+        width: 20px;
+        height: 2px;
+        background: #fff;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #btn-mobile2{
+        content: '';
+        display:block;
+        width: 20px;
+        height: 2px;
+        background: #fff;
+        margin-top: 5px;
+    }
+
+    #nav.active #btn-mobile1::before{
+        transform: rotate(135deg)
+    }
+
+    #nav.active #btn-mobile2{
+        display:none
+    }
+
+    #nav.active #btn-mobile1::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+
 }
 
 #break:hover{
@@ -161,7 +232,8 @@ article{
 .secondarticle{
     margin: 0px 366px;
     padding: 75px 15px;
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
 }
 
 .premium-title{
@@ -571,7 +643,6 @@ svg{
 
 .instagram{
     background: no-repeat url(./Assets/insta.svg);
-    
 }
 
 .twitter{
