@@ -308,19 +308,19 @@ article{
 #othercards li img{
     display: none;
     position: relative;
-    background-position: center center;  
-    top: -50px;
-    left: 50%;
-    margin: 0px;
-    padding: 8px 6px;
+    margin: auto;
+    padding: 1px auto;
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(0 0 0 / 20%) 0px 6px 18px;
     border-radius: 8px;
-    transform: translateX(-50%);
-    width: 29px;
     height: 20px;
-    cursor: pointer;
 }
+
+#cardtest.active #othercards li img{
+    display: block;
+}
+
+
 
 #othercards:hover{
     display: flex;
@@ -329,23 +329,6 @@ article{
 #morecards{
     cursor: pointer;
 }
-
-#morecards.active li img{
-    display: block;
-    position: relative;
-    background-position: center center;  
-    top: -50px;
-    left: 50%;
-    margin: 0px;
-    padding: 8px 6px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgb(0 0 0 / 20%) 0px 6px 18px;
-    border-radius: 8px;
-    transform: translateX(-50%);
-    width: 29px;
-    height: 20px;
-}
-
 
 .container{
     display: grid;
@@ -796,6 +779,14 @@ svg{
 @media (max-width: 1700px){
     .thirdarticle{
     margin:auto;
+    }
+}
+
+@media (max-width: 980px){
+    .generalcards{
+        margin: 15px;
+        display: flex;
+        justify-content: flex-start;
     }
 }
 
